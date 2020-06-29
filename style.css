@@ -1,0 +1,214 @@
+
+
+body{
+	background: #EBD9D5;
+    font-family: 'Roboto', sans-serif;
+      
+}
+
+ /****.active { background-color: red; }****/
+
+#onhover {
+  display: none;
+}
+
+.surround:hover span#initial {
+  display: none;
+}
+
+.surround:hover span#onhover {
+  display: block;
+}
+
+.nav{
+	text-align: center;
+	color: #F2382B;
+	font-size:calc(12px + 0.3vw);
+	letter-spacing: 1px;
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav a{
+	display:inline-block;
+	text-decoration: none;
+	color: #F2382B;
+	padding-right: 50px;
+	padding-left: 10px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+/***
+#about_txt a:hover{
+	display:inline-block;
+    border-bottom:1px solid #F2382B;
+    padding-bottom:2px;
+}
+****/
+
+span{
+    display:inline-block;
+    border-bottom:1px solid #F2382B;
+    padding-bottom:2px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+#pro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 30%);	
+}
+
+
+#rcorners {
+  border-radius: 400px;
+  border: 1px solid #F2382B;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width:150px;
+  text-align: center; 
+  margin: auto; 
+  margin-top: 28%;
+  color: #F2382B;
+  letter-spacing: 1px;
+}
+
+#rcorners:hover{
+	background: #F2382B;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+
+#name{
+	color: #F2382B;
+	font-family: 'Karla', serif;
+	font-size:4em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	letter-spacing: 2px;
+}
+
+#name:hover{
+	color: #EF7070;
+}
+
+#name_small{
+	color: #F2382B;
+	font-family: 'Karla', serif;
+	 font-size: 5vw;
+	padding-top: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#name_small a:visited{
+	text-decoration: none;
+	color: #F2382B;
+
+}
+
+@media screen and (min-width: 601px) {
+  #name {
+    font-size: 6vw;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #name {
+    font-size: 35px;
+  }
+
+  #name_small{
+  	font-size: 35px;
+  }
+}
+
+
+.ill{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  	bottom: 0;
+	width:40px;
+}
+
+
+#one{
+	margin:auto;
+	top:60%;
+	left: -10%;
+	
+}
+
+#two{
+	margin:auto;
+	width:20px;
+	top:-60%;
+	left: 0%;
+}
+
+#three{
+	margin:auto;
+	top:30%;
+	left: -50%;
+}
+
+#four{
+	margin:auto;
+	top:30%;
+	left: 50%;
+}
+
+#five{
+	margin:auto;
+	top:-40%;
+	left: 40%;
+  }
+
+#six{
+	margin:auto;
+	width:25px;
+	top:-45%;
+	left: -45%;
+}
+
+
+/*****
+
+	******/
+
+
