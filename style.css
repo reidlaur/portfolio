@@ -5,7 +5,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
+#blurbb{
+	padding-top: 30%;
+}
 
 
 
@@ -132,6 +134,12 @@ body{
 		#par #cir{
 			display: block;
 			width: 60%;
+			
+		}
+
+		#par #cirr{
+			display: block;
+			width: 10%;
 			
 		}
 
