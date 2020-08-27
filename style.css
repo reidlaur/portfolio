@@ -1,7 +1,7 @@
 
 
 body{
-	background: #F4E1DF;
+	background: #F8F8F8;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,35 +11,72 @@ body{
 
 
 
+/**** test scroll snap *****/
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+
+  
+  height: 100%;
+}
+
+.container div {
+  scroll-snap-align: start;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+.container div:nth-child(1) {
+  background: #F8F8F8;
+}
+.container div:nth-child(2) {
+  background: #F8F8F8;
+}
+.container div:nth-child(3) {
+  background: #F8F8F8;
+}
+
+.wrap{
+	width: 50%;
+	margin: auto; 
+	max-width: 800px;
+	min-width: 400px;
+	position: relative;
+  	text-align: center;
+}
+
+
+
+
 /**** contact page *****/
-	
+	#here {
+		text-decoration: underline;
+		color: #3d6eff;
+	}
+
+	#here a{
+		text-decoration: none;
+		color: #3d6eff;
+	}
+
+	#here a:hover{
+		text-decoration: none;
+		color: #3d6eff;
+	}
+
+	#here a:visited{
+		text-decoration: none;
+		color: #3d6eff;
+	}
+
+
 	.icons{
 		width: 5%;
 	}
-
-	/*****
-
-	#insta{
-		position: absolute;
-		padding-top: 90%;
-		left: 40%;
-		top: 30%;
-		transform: translate(-50%, 0);
-		text-align: center;
-	}
-
-	#email{
-		position: absolute;
-		color: #F2382B;
-		left: 50%;
-		top: 30%;
-		transform: translate(-50%, 0);
-		text-align: center;
-		font-size:2vw;
-		letter-spacing: 1px;
-	}
-
-		*****/
 
 		#wrapper{
 			width:50%;
@@ -68,7 +105,7 @@ body{
 		}
 
 	#txt_email{
-		color: #F2382B;
+		color: #3d6eff;
 		text-align: center;
 		font-size:2vw;
 		letter-spacing: 1px;
@@ -76,12 +113,12 @@ body{
 
 	#txt_email a{
 		text-decoration: none;
-		color: #F2382B;
+		color: #3d6eff;
 	}
 
 	#txt_email a:hover{
 		text-decoration: none;
-		color: #F2382B;
+		color: #3d6eff;
 	}
 
 
@@ -107,7 +144,7 @@ body{
  			 text-align:center;
  			 margin-left: auto;
 		    margin-right: auto;
-		    color: #F2382B;
+		    color: #3d6eff;
 		    font-size:1.5vw;
 			letter-spacing: 1px;
 			padding-top: 3%;
@@ -116,7 +153,7 @@ body{
 		/**** snap & go page *****/
 
 		#title{
-			color: #F2382B;
+			color: #000000;
 			font-size:3vw;
 			letter-spacing: 1px;
 		}
@@ -190,7 +227,7 @@ body{
 }
 
 .pics:hover{
-	opacity:0.4;
+	opacity:0.7;
 	/*background-color: black;*/
 	transition: 0.5s;
 }
@@ -205,34 +242,34 @@ body{
 
 #txt{
 	position: absolute;
-	color: white;
+	color: #3d6eff;
 	left: 50%;
-	top: 20%;
+	top: 14%;
 	transform: translate(-50%, 0);
 	text-align: center;
-	font-size:2vw;
+	font-size:2rem;
 	letter-spacing: 1px;
 }
 
 #txt2{
 	position: absolute;
-	color: white;
+	color: #3d6eff;
 	left: 50%;
-	top: 57%;
+	top: 12%;
 	transform: translate(-50%, 0);
 	text-align: center;
-	font-size:2vw;
+	font-size:2rem;
 	letter-spacing: 1px;
 }
 
 #txt3{
 	position: absolute;
-	color: white;
+	color: #3d6eff;
 	left: 50%;
-	top: 91%;
+	top: 15%;
 	transform: translate(-50%, 0);
 	text-align: center;
-	font-size:2vw;
+	font-size:2rem;
 	letter-spacing: 1px;
 }
 
@@ -279,7 +316,7 @@ body{
 
 .nav{
 	text-align: center;
-	color: #F2382B;
+	color: #3d6eff;
 	font-size:calc(12px + 0.3vw);
 	letter-spacing: 1px;
 }
@@ -291,7 +328,7 @@ body{
 .nav a{
 	display:inline-block;
 	text-decoration: none;
-	color: #F2382B;
+	color: #3d6eff;
 	padding-right: 50px;
 	padding-left: 10px;
 	
@@ -308,7 +345,7 @@ body{
 
 span{
     display:inline-block;
-    border-bottom:1px solid #F2382B;
+    border-bottom:1px solid #3d6eff;
     padding-bottom:2px;
 }
 
@@ -346,26 +383,26 @@ a:active {
 
 #rcorners {
   border-radius: 400px;
-  border: 1px solid #F2382B;
+  border: 1px solid #3d6eff;
   padding-bottom: 10px;
   padding-top: 10px;
   width:150px;
   text-align: center; 
   margin: auto; 
   margin-top: 28%;
-  color: #F2382B;
+  color: #3d6eff;
   letter-spacing: 1px;
 }
 
 #rcorners:hover{
-	background: #F2382B;
+	background: #3d6eff;
 	color: #FFFFFF;
 	letter-spacing: 1px;
 }
 
 
 #name{
-	color: #F2382B;
+	color: #3d6eff;
 	font-family: 'Karla', serif;
 	font-size:4em;
 	position: absolute;
@@ -376,11 +413,11 @@ a:active {
 }
 
 #name:hover{
-	color: #EF7070;
+	color: #3d6eff;
 }
 
 #name_small{
-	color: #F2382B;
+	color: #3d6eff;
 	font-family: 'Karla', serif;
 	 font-size: 5vw;
 	padding-top: 30px;
@@ -390,7 +427,7 @@ a:active {
 
 #name_small a:visited{
 	text-decoration: none;
-	color: #F2382B;
+	color: #3d6eff;
 
 }
 
