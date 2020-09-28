@@ -9,6 +9,15 @@ body{
 	padding-top: 30%;
 }
 
+/**** video *****/
+
+video {
+	display: block;
+  width: 30%;
+margin: auto; 
+  
+  
+}
 
 
 /**** test scroll snap *****/
